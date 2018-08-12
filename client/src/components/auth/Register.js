@@ -80,7 +80,7 @@ class Register extends Component {
                   value={this.state.password}
                   onChange={this.onChange}
                   error={errors.password}
-                  type="text"
+                  type="password"
                 />
                 <TextFieldGroup
                   placeholder="Confirm Password"
@@ -88,7 +88,7 @@ class Register extends Component {
                   value={this.state.password2}
                   onChange={this.onChange}
                   error={errors.password2}
-                  type="text"
+                  type="password"
                 />
                 <input type="submit" className="btn btn-info btn-block mt-4" />
               </form>

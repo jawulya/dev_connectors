@@ -65,7 +65,7 @@ class Login extends Component {
                   value={this.state.password}
                   onChange={this.onChange}
                   error={errors.password}
-                  type="text"
+                  type="password"
                 />
                 <input type="submit" className="btn btn-info btn-block mt-4" />
               </form>
